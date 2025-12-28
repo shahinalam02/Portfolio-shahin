@@ -141,7 +141,7 @@ const Hero: React.FC = () => {
                              */}
                 {!imageError ? (
                   <img
-                    src="/assets/images/shahin.png"
+                    src="../assets/images/shahin2.png"
                     onError={() => setImageError(true)}
                     // Removed grayscale by default to show your image clearly. Added object-top.
                     className="w-full h-full object-cover object-top opacity-100 transition-all duration-700 hover:scale-105"
