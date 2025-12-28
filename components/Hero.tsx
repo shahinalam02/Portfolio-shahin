@@ -7,7 +7,7 @@ import {
   User,
 } from "lucide-react";
 import React, { useState } from "react";
-import shahin1 from "../assets/images/shahin2.png";
+import shahin2 from "../assets/images/shahin2.png";
 
 const Hero: React.FC = () => {
   const [imageError, setImageError] = useState(false);
@@ -141,7 +141,7 @@ const Hero: React.FC = () => {
                              */}
                 {!imageError ? (
                   <img
-                    src="../assets/images/shahin2.png"
+                    src={shahin2}
                     onError={() => setImageError(true)}
                     // Removed grayscale by default to show your image clearly. Added object-top.
                     className="w-full h-full object-cover object-top opacity-100 transition-all duration-700 hover:scale-105"
