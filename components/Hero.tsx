@@ -155,7 +155,7 @@ const Hero: React.FC = () => {
                     <p className="text-xs text-white/40 uppercase tracking-widest font-mono">
                       Image not found
                     </p>
-                    <p className="text-[10px] text-white/20 mt-1">{shahin1}</p>
+                    <p className="text-[10px] text-white/20 mt-1"></p>
                   </div>
                 )}
 
