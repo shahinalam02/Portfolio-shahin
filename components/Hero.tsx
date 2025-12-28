@@ -7,7 +7,7 @@ import {
   User,
 } from "lucide-react";
 import React, { useState } from "react";
-import shahin1 from "../assets/images/shahin1.png";
+import shahin1 from "../assets/images/shahin2.png";
 
 const Hero: React.FC = () => {
   const [imageError, setImageError] = useState(false);
